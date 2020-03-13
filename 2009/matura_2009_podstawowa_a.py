@@ -12,3 +12,4 @@ for linia in plik:
         if linia==pierwsze[i]**2:
             print(linia)
             break
+            edit
