@@ -1,5 +1,4 @@
 plik=open("C:/Users/Jakub/PycharmProjects/Matura/Pliki/2017_maj/dane.txt")
-zapis=open("C:/Users/Jakub/PycharmProjects/Matura/Pliki/2017_maj/zapis.txt",'w')
 kontrastujace=0
 tablica=[]
 for linia in plik:
