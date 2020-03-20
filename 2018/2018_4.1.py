@@ -1,4 +1,5 @@
 plik=open("C:/Users/Jakub/PycharmProjects/Matura/Pliki/2018_maj/sygnaly.txt")
+zapis=open("C:/Users/Jakub/PycharmProjects/Matura/Pliki/2018_maj/wynik_4.1.txt",'w')
 tablica=[]
 for linia in plik:
     linia=linia.strip()
@@ -12,3 +13,4 @@ while i <1000:
     tekst+=x
     i+=40
 print(tekst)
+zapis.write(tekst)
