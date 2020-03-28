@@ -3,6 +3,6 @@ wynik=0
 for linia in plik:
     linia=linia.strip()
     linia=linia.split()
-    if linia!=(reversed(linia)):
+    if list(linia)!=list(reversed(linia)):
         wynik+=1
 print(wynik)
