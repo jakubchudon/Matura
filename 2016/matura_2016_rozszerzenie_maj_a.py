@@ -1,5 +1,5 @@
-plik=open('/Users/jakubchudon//Desktop/matury/2016_rozszerzenie_maj/dane_6_1.txt')
-odp=open('/Users/jakubchudon//Desktop/matury/2016_rozszerzenie_maj/wynik_6.1.1.txt','w')
+plik=open('C:/Users/Jakub/PycharmProjects/Matura/Pliki/2016_maj/dane_6_1.txt')
+odp=open('C:/Users/Jakub/PycharmProjects/Matura/Pliki/2016_maj/odp_6.1.txt','w')
 k=107%26
 for linia in plik:
     linia=linia.strip()
@@ -14,6 +14,7 @@ for linia in plik:
         x=chr(x)
         tekst+=x
     else:
+        print(tekst)
         odp.write(tekst)
         odp.write("\n")
 

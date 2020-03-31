@@ -1,4 +1,5 @@
 plik=open("C:/Users/Jakub/PycharmProjects/Matura/Pliki/2017_maj/dane.txt")
+odp=open("C:/Users/Jakub/PycharmProjects/Matura/Pliki/2017_maj/odp_6.3.txt",'w')
 kontrastujace=0
 tablica=[]
 for linia in plik:
@@ -35,6 +36,7 @@ for y in range(len(tablica)):
         if kontrast==True:
             kontrastujace+=1
 print(kontrastujace)
+odp.write(str(kontrastujace))
 
 
 

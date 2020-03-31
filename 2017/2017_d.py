@@ -1,4 +1,5 @@
 plik=open("C:/Users/Jakub/PycharmProjects/Matura/Pliki/2017_maj/dane.txt")
+odp=open("C:/Users/Jakub/PycharmProjects/Matura/Pliki/2017_maj/odp_6.4.txt",'w')
 max_kolumna=[]
 tablica=[]
 for linia in plik:
@@ -21,4 +22,5 @@ for x in range(len(tablica[0])):
     else:
         max_kolumna.append(max_wiersza)
 print(max(max_kolumna))
+odp.write(str(max(max_kolumna)))
 

@@ -1,5 +1,5 @@
-plik=open('/Users/jakubchudon//Desktop/matury/2016_rozszerzenie_maj/dane_6_3.txt')
-odp=open('/Users/jakubchudon//Desktop/matury/2016_rozszerzenie_maj/wynik_6.3.txt','w')
+plik=open('C:/Users/Jakub/PycharmProjects/Matura/Pliki/2016_maj/dane_6_3.txt')
+odp=open('C:/Users/Jakub/PycharmProjects/Matura/Pliki/2016_maj/odp_6.3.txt','w')
 for linia in plik:
     linia=linia.split()
     linia_p=(linia[1])

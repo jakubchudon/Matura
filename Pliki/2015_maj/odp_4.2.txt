@@ -1,0 +1,2 @@
+podzielne przez 2: 500
+podzielne przez 8: 123
