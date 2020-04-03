@@ -1,3 +1,3 @@
-w="Iliewski "
-x=w.upper()
+odw="dupa"
+x=odw.join(list(reversed(odw)))
 print(x)
